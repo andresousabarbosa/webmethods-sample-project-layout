@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="Sample wm unit test" name="Sample Test Suit">
+    <webMethodsTestCase description="teste serviço soma" name="teste serviço soma">
+        <service folder="SAGLab.service" name="soma">
+            <input>
+                <file filename="resources/test/xml/data/somaTest1Input.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/xml/data/somaTest1Output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
